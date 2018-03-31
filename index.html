@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="jquery-3.2.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-sm-2">
+                <img src="img/Wikigo.jpg" alt="" id="logo">
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group" id="inputsearch">
+                    <input id="search" type="text" class="form-control input-lg" name="search" placeholder="">
+                    <span class="input-group-addon" id="searchButton" onclick="sendRequest()"><span class="glyphicon glyphicon-search"></span></i>
+                    </span>
+                </div>
+                <ul class="nav nav-tabs" id="tab">
+                    <li class="active"><a href="javascript:void(0)">All</a></li>
+                    <li><a href="javascript:void(0)">Images</a></li>
+                    <li><a href="javascript:void(0)">Video</a></li>
+                    <li><a href="javascript:void(0)">News</a></li>
+                    <li><a href="javascript:void(0)">More</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul class="nav navbar-nav navbar-right" id="icon">
+                    <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-6">
+                <div class="wikigo">
+                </div>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
