@@ -1,5 +1,5 @@
 # Wikigo
-Build search engine from scratch.
+Build search engine from scratch. This is the project at My University
 
 # Description
 1. Crawl many page from wiki
